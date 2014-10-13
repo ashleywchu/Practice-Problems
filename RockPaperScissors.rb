@@ -1,3 +1,4 @@
+# Rock, Paper, Scissors
 def rps
 	computer_move = ["Rock", "Paper", "Scissors"]
 	computer = computer_move.sample
