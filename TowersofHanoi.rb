@@ -1,8 +1,8 @@
 # Towers of Hanoi
 
 pegs = { "a" => [3, 2, 1],
-		 "b" => [],
-		 "c" => []
+	 "b" => [],
+	 "c" => []
 }
 
 # Method to display pegs
@@ -12,6 +12,7 @@ def display_pegs
 	puts "Peg C = " + pegs["c"].to_s
 	puts
 end
+
 # Method to perform user move
 def user_move(from, to)
 	# If FROM peg is empty, there is no disk to move. Display error 
